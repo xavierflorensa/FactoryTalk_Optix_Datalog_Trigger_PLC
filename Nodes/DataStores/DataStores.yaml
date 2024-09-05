@@ -1,0 +1,110 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=c94d93e93b59fa57737eced15c4a5e81
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=5;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=5;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=5;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=5;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: VariableToSample1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: VariableToSample2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: VariableToSample3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: VariableToSample4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: VariableToSample5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: VariableToSample6
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=10;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=5;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=5;i=59
+    Direction: Forward

@@ -1,0 +1,64 @@
+Project:
+ Name: FactoryTalk_Optix_Datalog_Trigger_PLC
+ GUID: a112295dcba29b06d2c67035fad2ccf4
+ ProjectNamespaceIndex: 12
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  3:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 12.4
+  4:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  5:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.1
+  8:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.1
+  9:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
+  10:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  11:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 3.0
+ Statistics:
+  TotalNodeCount: 359
+  Objects: 105
+  ObjectTypes: 1
+  Variables: 253
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 25
+  ReferenceTypes: 0
+  Files: 26
+ Nodes:
+ - File: Nodes/FactoryTalk_Optix_Datalog_Trigger_PLC.yaml
